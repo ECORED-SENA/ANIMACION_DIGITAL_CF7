@@ -2,145 +2,65 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    
-    .titulo-principal
-      .h3 Producción Audiovisual
-    
-    #t_2_1.titulo-segundo
-      .h4 2.1 Infografía Animada
-    
-    p.mb-4 Propuesta infográfica en animación que refuerce un tema y matice conceptos dados de manera creativa y con intención pedagógica.
 
+    .titulo-principal.color-acento-contenido
+      .titulo-principal__numero
+        span 2
+      h1 Propiedades de la luz
+    .row.mb-5.align-items-center
+      .col-lg-8.mb-4.mb-lg-0
+        .bloque-texto-c.color-secundario.p-4
+          i.fas.fa-quote-right
+          h2.my-4 Para dar inicio a las propiedades de la luz, vale la pena resolver antes la pregunta #[span.text-deco1 ¿Qué es la luz?] Se puede definir la luz como un fenómeno electromagnético que se propaga en forma de ondas, las cuales pueden ser, o no, percibidas por la visión, utilizando como herramienta los ojos.
+      .col-lg-4
+        figure
+          img(src='@/assets/curso/tema2/img1.png', style='width: 400px').m-auto
+    p.mb-5 Según la intensidad con que el reflejo de estas ondas ilumina las superficies en el entorno, será posible ver los objetos y distinguir los colores alrededor. Entre las propiedades más importantes de la luz, están las mencionadas a continuación:
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2cnKTwQ85fg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
-    #t_2_2.titulo-segundo
-      .h4 2.2 Video Motion
-
-    p.mb-4 Animación digital que crea la ilusión de movimiento mediante imágenes, fotografías, títulos, colores y diseños.
-
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/E7-BaX6ox9s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
-    #t_2_3.titulo-segundo
-      .h4 2.3 Motion + Presentador
-
-    p.mb-4 Es el uso locutor + acompañamiento de imágenes como fondo, el estilo tiene una mezcla entre imagen viva y recursos gráficos vectoriales  se usa cuando un material tiene información de datos numéricos o gráficos de valores. 
-
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/Ky73iaXuuTA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
-    #t_2_4.titulo-segundo
-      .h4 2.4 Animación 2D
-
-    p.mb-4 Es el uso locutor + acompañamiento de imágenes como fondo, el estilo tiene una mezcla entre imagen viva y recursos gráficos vectoriales  se usa cuando un material tiene información de datos numéricos o gráficos de valores. 
-
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/3b8VctSm558" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
-    #t_2_5.titulo-segundo
-      .h4 2.5 Video interactivo
-
-    p.mb-4 Visualización de videos con diferentes tipos de preguntas o anotaciones.
-
-    figure.mb-5
-      .video
-        iframe(src="https://vizia.co/videos/94d994c5fe93f1b08a60eb/embed" allowtransparency="true" frameborder="0" scrolling="no" width="640" height="390")
-
-    #t_2_6.titulo-segundo
-      .h4 2.6 Infografías
-
-    p.mb-4 Es una herramienta de comunicación de alta precisión, el cual tiene una narrativa gráfica con un texto corto acompañada de elementos visuales que tienen como intención de captar rápidamente la atención del lector. 
-
-    figure.mb-5
-      img(src='@/assets/curso/infografia-1.jpg', alt='Infografía Fundamentos del Servicio de Interpretación')
-      figcaption Fundamentos del Servicio de Interpretación
-
-    .tarjeta.tarjeta--morada.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              .h5.mb-0 Fundamentos del Servicio de Interpretación
-              p Formato PDF
-            .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/fundamentos_del_servicio_de_Interpretacion.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
-    
-    figure.mb-5
-      img(src='@/assets/curso/infografia-2.jpg', alt='Infografía Plan de Negocios')
-      figcaption Plan de Negocios
-
-    .tarjeta.tarjeta--morada.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              .h5.mb-0 Plan de Negocios
-              p Formato PDF
-            .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/plan_de_negocios.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
-    
-    figure.mb-5
-      img(src='@/assets/curso/infografia-3.jpg', alt='Infografía Cobertura poblacional')
-      figcaption Cobertura poblacional
-
-    .tarjeta.tarjeta--morada.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              .h5.mb-0 Cobertura poblacional
-              p Formato PDF
-            .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/cobertura_poblacional.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
-    
-    figure.mb-5
-      img(src='@/assets/curso/infografia-4.jpg', alt='Infografía Historia de las microfinanzas: Mohammad Yunus')
-      figcaption Historia de las microfinanzas: Mohammad Yunus
-
-    .tarjeta.tarjeta--morada.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              .h5.mb-0 Historia de las microfinanzas: Mohammad Yunus
-              p Formato PDF
-            .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/historia_de_las_microfinanzas_mohammad_yunus.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
-    
-    figure.mb-5
-      img(src='@/assets/curso/infografia-5.jpg', alt='Infografía Psicología de la moda: sexualidad, ropa mágica, ropa malévola y ropa neurótica')
-      figcaption Psicología de la moda: sexualidad, ropa mágica, ropa malévola y ropa neurótica
-
-    .tarjeta.tarjeta--morada.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              .h5.mb-0 Psicología de la moda: sexualidad, ropa mágica, ropa malévola y ropa neurótica
-              p Formato PDF
-            .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/psicologia_de_la_moda.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
-
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    .row.justify-content-center
+      .col-lg-8.mb-4
+        p Es gracias al fenómeno de reflexión de la luz que se puede visualizar el entorno, los espacios, las cosas; al ser iluminados por una fuente lumínica natural, como el sol, o artificial, como una lámpara, los rayos se reflejan sobre las superficies de los diferentes elementos presentes, favoreciendo conocer detalles, como su tamaño, color y forma.
+      .col-lg-8.mb-5.bg-color3
+        .p-4
+          p.text-center.mb-0 Profundice estos y otros conceptos, a continuación:
+    TabsA.color-acento-botones
+      .tarjeta.color-acento-botones--borde.p-4(titulo="Imagen especular")
+        .row.align-items-center
+          .col-lg-6.mb-4.mb-lg-0
+            figure
+              img(src='@/assets/curso/tema2/img3.png', style='width: 450px')
+          .col-lg-6
+            p.mb-0 La formación de imágenes en espejos, en donde los rayos de luz rebotan sobre la superficie lisa de un espejo, formando una imagen por efecto de la reflexión de la luz.
+      .tarjeta.color-acento-botones--borde.p-4(titulo="Reflexión interna total")
+        .row.align-items-center
+          .col-lg-6.mb-4.mb-lg-0
+            figure
+              img(src='@/assets/curso/tema2/img2.png', style='width: 450px')
+          .col-lg-6
+            p.mb-0 Es un tipo de reflexión especial que se observa en las gemas, en donde los rayos de luz se reflejan y rebotan contra las superficies internas del cristal, produciendo destellos.
+      .tarjeta.color-acento-botones--borde.p-4(titulo="Halo solar")
+        .row.align-items-center
+          .col-lg-6.mb-4.mb-lg-0
+            figure
+              img(src='@/assets/curso/tema2/img4.png', style='width: 450px')
+          .col-lg-6
+            p.mb-0 Es un círculo difuso que rodea el sol, producido por la reflexión de la luz en la superficie de las gotas de agua que flotan en la atmósfera.
+      .tarjeta.color-acento-botones--borde.p-4(titulo="Tipo de materiales reflectivos")
+        .row.align-items-center
+          .col-lg-6.mb-4.mb-lg-0
+            figure
+              img(src='@/assets/curso/tema2/img5.png', style='width: 450px')
+          .col-lg-6
+            p.mb-0 Entre los materiales u objetos que reflejan una mayor cantidad de luz, se pueden encontrar los cuerpos reflejantes, que son aquellos que no dejan pasar los rayos de luz, sino que la desvían en otra dirección; por ejemplo, los espejos (cuerpos reflejantes por excelencia), el vidrio, los metales pulidos como el acero, la plata, el oro y el aluminio y algunos plásticos transparentes como el Tereftalato de Polietileno (Mylar) y el metacrilato espejo.
+      
+  
 </template>
 
 <script>
 export default {
-  name: 'Tema2',
+  name: 'Tema1',
   data: () => ({
     // variables de vue
   }),
