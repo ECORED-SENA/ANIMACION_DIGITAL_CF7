@@ -3,12 +3,12 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 4
       h1 Tipos de luces en #[i After Effects]
     .row.justify-content-center
-      .col-10
+      .col-10(data-aos="slide-right")
           .bloque-texto-a.color-acento-botones.p-4.p-md-5.mb-5 
             .row.m-0.align-items-center.justify-content-between
               .col-lg-4.mb-4.mb-lg-0

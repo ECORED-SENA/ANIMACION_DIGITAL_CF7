@@ -3,12 +3,12 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 8
       h1 Render
     .row.justify-content-center
-      .col-10
+      .col-10(data-aos="slide-left")
           .bloque-texto-a.color-terciario.p-4.p-md-5.mb-5 
             .row.m-0.align-items-center.justify-content-between
               .col-lg-4.mb-4.mb-lg-0

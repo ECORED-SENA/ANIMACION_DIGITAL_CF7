@@ -3,26 +3,28 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido.mb-0(data-aos="flip-up")
       .titulo-principal__numero
         span 1
       h1 Conceptos básicos de iluminación
     .row.bg-color2
       .px-5.pt-5
         .col-12
-          .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5 
-            .row.m-0.align-items-center.justify-content-between
-              .col-lg-4.mb-4.mb-lg-0
-                br
-              .col-lg-8
-                .bloque-texto-a__texto.p-4
-                  p Uno de los aspectos más importantes en la creación de imágenes y su integración en escenarios es la definición de los elementos que iluminan la escena. Por esta razón, es necesario definir los objetos que añaden iluminación a los objetos que constituyen la escena, los tipos de luces y sus características básicas.
+          .row.justify-content-center
+            .col-10(data-aos="slide-left")
+              .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5 
+                .row.m-0.align-items-center.justify-content-between
+                  .col-lg-4.mb-4.mb-lg-0
+                    br
+                  .col-lg-8
+                    .bloque-texto-a__texto.p-4
+                      p Uno de los aspectos más importantes en la creación de imágenes y su integración en escenarios es la definición de los elementos que iluminan la escena. Por esta razón, es necesario definir los objetos que añaden iluminación a los objetos que constituyen la escena, los tipos de luces y sus características básicas.
         #t_1_1
         .titulo-segundo.color-secundario
           h2 1.1 Teoría de luz
         p.mb-5 Los puntos de iluminación, sin duda, hacen parte del realismo que le integramos a la atmósfera o al ambiente que estamos creando y, a su vez, son elementos más delicados de utilizar, al influir enormemente en el tiempo necesario para renderizar una escena. Cada uno de los objetos utilizados dispone de parámetros y propiedades específicas, que pueden ser, o no, comunes a los tipos de iluminación, tal como se verá en este contenido.
         .row.justify-content-center
-          .col-10
+          .col-10(data-aos="slide-up")
             img(src='@/assets/curso/tema1/img2.png', style='width: 800px').m-auto
     .row.mb-5
       .col-12.bg-color3
@@ -30,7 +32,7 @@
           h3.text-center.text-deco1.mb-4 Teoría básica luces y sombras
           p.mb-4 ¿Cómo se afecta la percepción de los objetos según la clase de luz que los ilumina? Estos van a mostrar ciertas características gracias al tipo de iluminación que se utiliza.  Es posible distinguir ciertos aspectos de los elementos, tales como su color, textura, volumen, forma, ubicación en el espacio, entre otros, los cuales pueden variar debido al uso de un tipo de iluminación en particular. Gracias a las luces y sombras, es posible percibir la forma tridimensional de un objeto, por eso es preciso mencionar que hay que tener en cuenta qué tipo de iluminación está afectando nuestra escena; para ello, a continuación, se mencionan los tipos de luces que se implementan:
           .row
-            .col-lg-6.mb-4.mb-lg-0
+            .col-lg-6.mb-4.mb-lg-0.d-flex
               .p-5.bg-color4
                 p #[b Luz natural]. La luz natural es la que emite el sol y se proyecta sobre los cuerpos, pero varía según la hora del día. Por ello, es posible notar el momento del día según la posición del sol. Asimismo, las sombras variarán y será posible ver que, según se mueva el sol, las sombras serán más largas o más cortas sobre el piso, las sombras de los objetos serán marcadas de forma dura y densa. Esto puede variar solo cuando se encuentra un cielo nublado, el cual sirve de filtro, lo que hará que la luz sea menos densa y las sombras sean más tenues, menos marcadas. La hora del día también influirá en cómo se ve cualquier objeto, si se ve más frío o más cálido.
             .col-lg-6
@@ -167,7 +169,7 @@
     #t_1_2
     .titulo-segundo.color-secundario
       h2 1.2 Teoría del color
-    figure
+    figure(data-aos="slide-up")
       img(src='@/assets/curso/tema1/img4.svg').m-auto
     .row.mb-4.bg-color6
       .p-4
@@ -292,12 +294,12 @@
           td Seriedad, calidez, responsabilidad, terrosidad, soporte, autenticidad.
           td Falta de humor y sofisticación, suciedad, tristeza, conservadurismo.
     h3.mb-5 Temperatura del color
-    figure.mb-5
+    figure.mb-5(data-aos="slide-right")
       img(src='@/assets/curso/tema1/img12.png').m.auto
       figcaption.mt-2 Escenas del videojuego #[i Ori and The Blind Forest] (2015)
     p.mb-5 Comparando las imágenes anteriores se puede percibir que cada una de ellas evoca emociones diferentes. ¿Por qué sucede esto?, la respuesta está en el uso de los colores. En la imagen de la izquierda se destacan los colores azules, violetas y algunos tintes de verde que dan la sensación de que se trata de un mundo nocturno o frío; en contraste con la imagen de la derecha en la que se destacan los colores amarillos, amarillos verdosos, naranjas, terrosos y ocres que brindan la ilusión de un mundo más cálido.
     .row.justify-content-center
-      .col-lg-10
+      .col-lg-10(data-aos="slide-left")
         .bloque-texto-a.color-acento-contenido.p-4.p-md-5.mb-5 
           .row.m-0.align-items-center.justify-content-between
             .col-lg-4.mb-4.mb-lg-0
@@ -308,14 +310,14 @@
       .col-md.tarjeta.color-primario.p-5
         .row.justify-content-center.mb-4
           .col-6
-            figure
+            figure(data-aos="flip-right")
               img(src='@/assets/curso/tema1/img17.svg')
         h2.text-center Colores cálidos o activos
         p Son aquellos asociados a efectos visuales de calor como la luz solar, el fuego, los atardeceres, la arena, la playa, etc., evocando fuertes sentimientos que promueven el movimiento. Funcionan bien en espacios grandes, haciéndolos sentir seguros, acogedores y más cercanos.
-      .col-md.tarjeta.color-acento-botones.p-5
+      .col-md.tarjeta.color-acento-botones1.p-5
         .row.justify-content-center.mb-4
           .col-6
-            figure
+            figure(data-aos="flip-left")
               img(src='@/assets/curso/tema1/img18.svg')
         h2.text-center Colores fríos o pasivos
         p  Se relacionan con efectos visuales asociados al frío como la luz de luna, el agua, el amanecer, la nieve, naturaleza verde, etc., transmitiendo una sensación de frescura y calma. Funcionan bien en espacios pequeños, aumentando la percepción de su tamaño, haciéndolos sentir más grandes, abiertos y lejanos.
@@ -326,7 +328,7 @@
           p.mb-0 Temperatura del color y sus efectos en la mente
         figure
           img(src='@/assets/curso/tema1/img19.svg', style='width: 400px').m-auto
-    figure.mb-5
+    figure.mb-5(data-aos="slide-left")
       img(src='@/assets/curso/tema1/img20.png').m-auto
     p.mb-5 Adicionalmente, puede conocer sobre la teoría del color y cómo se requiere de una referencia para mezclar los colores y conseguir un efecto en concreto:
     h3.mb-5 Teoría del color

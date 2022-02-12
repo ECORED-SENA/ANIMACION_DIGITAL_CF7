@@ -3,7 +3,7 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 2
       h1 Propiedades de la luz
@@ -13,12 +13,12 @@
           i.fas.fa-quote-right
           h2.my-4 Para dar inicio a las propiedades de la luz, vale la pena resolver antes la pregunta #[span.text-deco1 ¿Qué es la luz?] Se puede definir la luz como un fenómeno electromagnético que se propaga en forma de ondas, las cuales pueden ser, o no, percibidas por la visión, utilizando como herramienta los ojos.
       .col-lg-4
-        figure
+        figure(data-aos="flip-left")
           img(src='@/assets/curso/tema2/img1.png', style='width: 400px').m-auto
     p.mb-5 Según la intensidad con que el reflejo de estas ondas ilumina las superficies en el entorno, será posible ver los objetos y distinguir los colores alrededor. Entre las propiedades más importantes de la luz, están las mencionadas a continuación:
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/Ug4XECwsp_E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     .row.justify-content-center
       .col-lg-8.mb-4
         p Es gracias al fenómeno de reflexión de la luz que se puede visualizar el entorno, los espacios, las cosas; al ser iluminados por una fuente lumínica natural, como el sol, o artificial, como una lámpara, los rayos se reflejan sobre las superficies de los diferentes elementos presentes, favoreciendo conocer detalles, como su tamaño, color y forma.

@@ -3,7 +3,7 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido.mb-0(data-aos="flip-up")
       .titulo-principal__numero
         span 7
       h1 Efectos de sonido
@@ -13,7 +13,7 @@
           .row.justify-content-center.mb-5
             .col-10
               p.mb-5 Los efectos de sonido permiten ajustar el sonido final, para poder adaptarlo a un proyecto audiovisual que se esté realizando. Estos efectos se pueden aplicar de forma digital, pero anteriormente se realizaban de forma manual. La aplicación de efectos de sonido permite que las escenas sean creíbles, ya que le aportan cercanía a la realidad.
-              img(src='@/assets/curso/tema7/img1.png', style='width: 800px').m-auto.mb-5
+              img(src='@/assets/curso/tema7/img1.png', style='width: 800px')(data-aos="slide-up").m-auto.mb-5
             .col-10.mb-5
               .p-4.bg-color11
                 p.mb-0 Entre los sonidos más comúnmente usados, están las pisadas, el sonido del viento, sonidos de animales, el agua, los murmullos, los gritos, vehículos que pasan, golpes, caídas, entre muchos más.
@@ -30,7 +30,7 @@
       .col-12
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/eVP6V0bS5bQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     separador
     .row.bg-color14
       .px-5.pt-5
@@ -42,7 +42,7 @@
             .col-10.bg-color15.mb-5
               .p-4
                 .row.justify-content-end
-                  .col-8.col-lg6.bg-color16.my-5
+                  .col-8.col-lg6.bg-color16.my-5(data-aos="slide-left")
                     .p-4
                       p.mt-5 La música en el cine es una parte fundamental para efectos narrativos, que puede ser compuesta, arreglada o recopilada, la cual en sincronía va sujeta a cada momento del proyecto audiovisual. La música, entonces, es funcional, va de la mano con la imagen a la que acompaña, contextualizando el proyecto, dotándolo de características físicas, psicológicas, técnicas, entre otras.
                       img(src='@/assets/curso/tema7/img3.png', style='width: 200px; position: relative; top: 50px').m-auto
@@ -86,7 +86,7 @@
     .titulo-segundo.color-secundario
       h2 7.3 Elementos de análisis del sonido
     p.mb-5 Los sonidos, música y cualquier efecto sonoro que se incluya en un proyecto audiovisual ha de ser analizado desde tres aspectos fundamentales: banda sonora, ambientación sonora y efectos de audio.
-    img(src='@/assets/curso/tema7/img3.svg', style='width: 900px').m-auto.mb-5
+    img(src='@/assets/curso/tema7/img3.svg', style='width: 900px')(data-aos="slide-right").m-auto.mb-5
     p.mb-5.text-center Se muestran, a continuación, detalles específicos de los puntos de análisis del sonido en la animación y producciones audiovisuales:
     .row
       .col-12
@@ -155,7 +155,7 @@
       h2 7.4 Formatos de sonido
     p.mb-5 Los formatos de sonido son decodificadores que transmiten la señal junto al video; los más usados por la industria de los videojuegos son, entre otros, Dolby Digital, Digital Sourround, WAV y AIFF, MP3, AAC, WMA.
     .row.py-5.justify-content-center
-      .col-10.bg-color3.mb-5
+      .col-10.bg-color3.mb-5(data-aos="slide-up")
         .row.text-deco3
           .col-12
             img(src='@/assets/curso/tema7/img11.svg', style='width: 500px').m-auto

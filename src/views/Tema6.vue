@@ -3,7 +3,7 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 6
       h1 Efectos visuales
@@ -168,7 +168,7 @@
             figure
               .video
                 iframe(width="560" height="315" src="https://www.youtube.com/embed/S2Q96efUOtw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-    img(src='@/assets/curso/tema5/img2.svg', style='width: 420px').m-auto
+    img(src='@/assets/curso/tema5/img2.svg', style='width: 420px')(data-aos="slide-left").m-auto
   
 </template>
 

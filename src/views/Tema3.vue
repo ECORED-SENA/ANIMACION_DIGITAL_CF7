@@ -3,7 +3,7 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido.mb-0(data-aos="flip-up")
       .titulo-principal__numero
         span 3
       h1 Parámetros de reflexión y refracción en animación 3D
@@ -19,19 +19,19 @@
                 .tarjeta.p-4
                   img(src='@/assets/curso/tema3/img2.png', style='width: 600px').m-auto
           .row.pt-5
-            .col-lg-4.d-flex.mb-5.mb-lg-0
+            .col-lg-4.d-flex.mb-5.mb-lg-0(data-aos="flip-left")
               .p-4.bg-color11
                 img(src='@/assets/curso/tema3/img1.svg', style='width: 100px').m-auto.img-deco2
                 .p-4.text-deco2
                   h3.text-center Rango
                   p El nivel de reflexión se manipula con un rango de entre 0 y 1.
-            .col-lg-4.d-flex.my-5.my-lg-0
+            .col-lg-4.d-flex.my-5.my-lg-0(data-aos="flip-up")
               .p-4.bg-color11
                 img(src='@/assets/curso/tema3/img2.svg', style='width: 100px').m-auto.img-deco2
                 .p-4.text-deco2
                   h3.text-center Valor de reflexión
                   p Si un material tiene un valor de reflexión de 0, este será mate; en cambio, si tiene un valor de 1, reflejará todos los objetos que se encuentren en su entorno.
-            .col-lg-4.mt-5.mt-lg-0
+            .col-lg-4.mt-5.mt-lg-0(data-aos="flip-right")
               .p-4.bg-color11
                 img(src='@/assets/curso/tema3/img3.svg', style='width: 100px').m-auto.img-deco2
                 .p-4.text-deco2
