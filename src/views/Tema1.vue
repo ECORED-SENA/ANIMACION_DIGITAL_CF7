@@ -34,10 +34,10 @@
           .row
             .col-lg-6.mb-4.mb-lg-0.d-flex
               .p-5.bg-color4
-                p #[b Luz natural]. La luz natural es la que emite el sol y se proyecta sobre los cuerpos, pero varía según la hora del día. Por ello, es posible notar el momento del día según la posición del sol. Asimismo, las sombras variarán y será posible ver que, según se mueva el sol, las sombras serán más largas o más cortas sobre el piso, las sombras de los objetos serán marcadas de forma dura y densa. Esto puede variar solo cuando se encuentra un cielo nublado, el cual sirve de filtro, lo que hará que la luz sea menos densa y las sombras sean más tenues, menos marcadas. La hora del día también influirá en cómo se ve cualquier objeto, si se ve más frío o más cálido.
+                p #[b Luz natural]: la luz natural es la que emite el sol y se proyecta sobre los cuerpos, pero varía según la hora del día. Por ello, es posible notar el momento del día según la posición del sol. Asimismo, las sombras variarán y será posible ver que, según se mueva el sol, las sombras serán más largas o más cortas sobre el piso, las sombras de los objetos serán marcadas de forma dura y densa. Esto puede variar solo cuando se encuentra un cielo nublado, el cual sirve de filtro, lo que hará que la luz sea menos densa y las sombras sean más tenues, menos marcadas. La hora del día también influirá en cómo se ve cualquier objeto, si se ve más frío o más cálido.
             .col-lg-6
               .p-5.bg-color4
-                p #[b Luz artificial]: La luz artificial sería toda aquella producida por linternas, lámparas, bombillos, fogatas, velas, antorchas, entre otras. Puede propagarse de forma recta o radial, puede tener diferentes posiciones y orientaciones, así como también variedad de colores, intensidades y texturas
+                p #[b Luz artificial]: la luz artificial sería toda aquella producida por linternas, lámparas, bombillos, fogatas, velas, antorchas, entre otras. Puede propagarse de forma recta o radial, puede tener diferentes posiciones y orientaciones, así como también variedad de colores, intensidades y texturas
                 img(src='@/assets/curso/tema1/img3.svg', style='width: 250px').m-auto
     TabsC.color-primario
       .py-3.py-md-4(titulo="Aspectos importantes de la luz")
@@ -49,21 +49,21 @@
                   .cajon.color-secundario.p-4.mb-4
                     ul.lista-ul--color.lista-ul
                       li 
-                        i.fa-solid.fa-gamepad
+                        i.fas.fa-gamepad(style="color: #FA9300")
                         |
-                        p #[b Luz directa]. Es la luz que se emite desde una fuente propia, por ejemplo, el sol, bombillos, antorchas.
+                        p #[b Luz directa]: es la luz que se emite desde una fuente propia, por ejemplo, el sol, bombillos, antorchas.
                       li 
-                        i.fa-solid.fa-gamepad
+                        i.fas.fa-gamepad(style="color: #FA9300")
                         |
-                        p #[b Luz reflejada]. Es la luz que se recibe de un cuerpo u objeto que la refleja, pero no es propia de él; un ejemplo de ello serían las luces que llegan a los objetos luego de rebotar en superficies metálicas.
+                        p #[b Luz reflejada]: es la luz que se recibe de un cuerpo u objeto que la refleja, pero no es propia de él; un ejemplo de ello serían las luces que llegan a los objetos luego de rebotar en superficies metálicas.
                       li 
-                        i.fa-solid.fa-gamepad
+                        i.fas.fa-gamepad(style="color: #FA9300")
                         |
-                        p #[b Dirección de la luz]. Es la posición del foco de luz con respecto al elemento que vamos a iluminar.
+                        p #[b Dirección de la luz]: es la posición del foco de luz con respecto al elemento que vamos a iluminar.
                       li 
-                        i.fa-solid.fa-gamepad
+                        i.fas.fa-gamepad(style="color: #FA9300")
                         |
-                        p #[b Luz frontal]. Situada frente al objeto.
+                        p #[b Luz frontal]: situada frente al objeto.
                 .col-lg-6
                   .titulo-sexto.color-acento-contenido
                     p.mb-0 #[b Figura 3]. Ejemplo de luz frontal en software Blender
@@ -73,7 +73,7 @@
                   .cajon.color-secundario.p-4.mb-4
                     ul.lista-ul--color.lista-ul
                       li 
-                        i.fa-solid.fa-gamepad
+                        i.fas.fa-gamepad(style="color: #FA9300")
                         |
                         p #[b Luz lateral]: situada a alguno de los lados del objeto.
                 .col-lg-6
@@ -90,9 +90,9 @@
                   .cajon.color-secundario.p-4.mb-4
                     ul.lista-ul--color.lista-ul
                       li 
-                        i.fa-solid.fa-gamepad
+                        i.fas.fa-gamepad(style="color: #FA9300")
                         |
-                        p #[b Luz cenital]. Situada arriba del objeto.
+                        p #[b Luz cenital]: situada arriba del objeto.
                 .col-lg-6
                   .titulo-sexto.color-acento-contenido
                     p.mb-0 #[b Figura 5]. Ejemplo de luz cenital en software Blender
@@ -102,9 +102,9 @@
                   .cajon.color-secundario.p-4.mb-4
                     ul.lista-ul--color.lista-ul
                       li 
-                        i.fa-solid.fa-gamepad
+                        i.fas.fa-gamepad(style="color: #FA9300")
                         |
-                        p #[b Contraluz]. Esta luz se sitúa detrás del objeto.
+                        p #[b Contraluz]: esta luz se sitúa detrás del objeto.
                 .col-lg-6
                   .titulo-sexto.color-acento-contenido
                     p.mb-0 #[b Figura 6]. Ejemplo de contraluz en software Blender
@@ -114,9 +114,9 @@
                   .cajon.color-secundario.p-4.mb-4
                     ul.lista-ul--color.lista-ul
                       li 
-                        i.fa-solid.fa-gamepad
+                        i.fas.fa-gamepad(style="color: #FA9300")
                         |
-                        p #[b Luz suave]. Se genera cuando la fuente de luz se extiende y se dispersa, como sería el caso de los rayos del sol filtrados por nubes, o una bombilla con un pedazo de tela, o una lámpara, lo cual hace que la luz se difumine y produzca sombras transparentes no tan #[b perceptibles] como con la luz dura.
+                        p #[b Luz suave]: se genera cuando la fuente de luz se extiende y se dispersa, como sería el caso de los rayos del sol filtrados por nubes, o una bombilla con un pedazo de tela, o una lámpara, lo cual hace que la luz se difumine y produzca sombras transparentes no tan #[b perceptibles] como con la luz dura.
                 .col-lg-6
                   .titulo-sexto.color-acento-contenido
                     p.mb-0 #[b Figura 7]. Ejemplo de luz suave en software Blender
@@ -128,9 +128,9 @@
             .cajon.color-secundario.p-4.mb-4
               ul.lista-ul--color.lista-ul
                 li 
-                  i.fa-solid.fa-gamepad
+                  i.fas.fa-gamepad(style="color: #FA9300")
                   |
-                  p #[b Luz dura]. Se genera por una fuente con foco intenso, esta va a generar sombras más marcadas y más oscuras.
+                  p #[b Luz dura]: se genera por una fuente con foco intenso, esta va a generar sombras más marcadas y más oscuras.
           .col-lg-6
             .titulo-sexto.color-acento-contenido
               p.mb-0 #[b Figura 8]. Ejemplo de luz dura en software Blender
@@ -142,17 +142,17 @@
             .cajon.color-secundario.p-4.mb-4
               ul.lista-ul--color.lista-ul
                 li 
-                  i.fa-solid.fa-gamepad
+                  i.fas.fa-gamepad(style="color: #FA9300")
                   |
-                  p #[b Sombras propias]. Son las sombras que se encuentran en los objetos, en las partes del mismo donde la luz no alcanza a llegar.
+                  p #[b Sombras propias]: son las sombras que se encuentran en los objetos, en las partes del mismo donde la luz no alcanza a llegar.
                 li 
-                  i.fa-solid.fa-gamepad
+                  i.fas.fa-gamepad(style="color: #FA9300")
                   |
-                  p #[b Sombras proyectadas]. Son las sombras que un objeto proyecta sobre la superficie donde se encuentra estacionado.
+                  p #[b Sombras proyectadas]: son las sombras que un objeto proyecta sobre la superficie donde se encuentra estacionado.
                 li 
-                  i.fa-solid.fa-gamepad
+                  i.fas.fa-gamepad(style="color: #FA9300")
                   |
-                  p #[b Sombra reflejada]. Son las sombras que el objeto genera en otro objeto cercano a este.
+                  p #[b Sombra reflejada]: son las sombras que el objeto genera en otro objeto cercano a este.
           .col-lg-6
             .titulo-sexto.color-acento-contenido
               p.mb-0 #[b Figura 9]. Ejemplo de luces y sombras afectando a un grupo de objetos
@@ -322,12 +322,69 @@
         h2.text-center Colores fríos o pasivos
         p  Se relacionan con efectos visuales asociados al frío como la luz de luna, el agua, el amanecer, la nieve, naturaleza verde, etc., transmitiendo una sensación de frescura y calma. Funcionan bien en espacios pequeños, aumentando la percepción de su tamaño, haciéndolos sentir más grandes, abiertos y lejanos.
     p.mb-5 Realizando una mezcla adecuada de colores cálidos y fríos se logra un equilibrio con un mayor contraste y mejor definición, que mejora la estética del videojuego, haciéndolo más agradable para el espectador.
-    .row.justify-content-center.mb-5
-      .col-lg-6
+    .row.justify-content-center
+      .col-lg-7
         .titulo-sexto.color-acento-contenido
           p.mb-0 Temperatura del color y sus efectos en la mente
-        figure
-          img(src='@/assets/curso/tema1/img19.svg', style='width: 400px').m-auto
+      .col-lg-6
+        ImagenInfografica.color-secundario.mb-5
+          template(v-slot:imagen)
+            figure
+              img(src='@/assets/curso/tema1/img19.svg', style="width: 400px").m-auto
+          .tarjeta.color-acento-botones.p-3(x="13%" y="31%" numero="")
+            p Evocan sensaciones de resequedad, el ánimo, algunos estadios de la excitación, movimiento y energía.
+          .tarjeta.color-acento-botones.p-3(x="13%" y="57.3%" numero="")
+            p Se relacionan con la humedad, la calma y estadios de depresión, evocan además frescura, dinamismo y vida.
+          .tarjeta.color-acento-botones.p-3(x="13%" y="76%" numero="")
+            p Su percepción no genera sensación térmica y por su efecto visual posibilita utilizarse en decoraciones y vestimentas sobrias.
+          .tarjeta.color-acento-botones.p-3(x="77%" y="5%" numero="")
+            .titulo-sexto.color-1.mb-0
+              h3.mb-0 Dorado
+            p.mb-0 Opulencia
+          .tarjeta.color-acento-botones.p-3(x="77%" y="12%" numero="")
+            .titulo-sexto.color-2.mb-0
+              h3.mb-0 Marrón
+            p.mb-0 Profundidad o experiencia
+          .tarjeta.color-acento-botones.p-3(x="77%" y="18%" numero="")
+            .titulo-sexto.color-3.mb-0
+              h3.mb-0 Amarillo
+            p.mb-0 Actitud positiva y alegría
+          .tarjeta.color-acento-botones.p-3(x="77%" y="25%" numero="")
+            .titulo-sexto.color-4.mb-0
+              h3.mb-0 Rojo
+            p.mb-0 Pasión y excitación
+          .tarjeta.color-acento-botones.p-3(x="77%" y="31%" numero="")
+            .titulo-sexto.color-5.mb-0
+              h3.mb-0 Rosa
+            p.mb-0 Feminidad
+          .tarjeta.color-acento-botones.p-3(x="77%" y="38%" numero="")
+            .titulo-sexto.color-6.mb-0
+              h3.mb-0 Plata
+            p.mb-0 Intelectualidad
+          .tarjeta.color-acento-botones.p-3(x="77%" y="44.4%" numero="")
+            .titulo-sexto.color-7.mb-0
+              h3.mb-0 Azul
+            p.mb-0 Tristeza o depresión
+          .tarjeta.color-acento-botones.p-3(x="77%" y="51%" numero="")
+            .titulo-sexto.color-8.mb-0
+              h3.mb-0 Verde
+            p.mb-0 Renovación o vida
+          .tarjeta.color-acento-botones.p-3(x="77%" y="57.5%" numero="")
+            .titulo-sexto.color-9.mb-0
+              h3.mb-0 Violeta
+            p.mb-0 Espiritualidad
+          .tarjeta.color-acento-botones.p-3(x="77%" y="64%" numero="")
+            .titulo-sexto.color-10.mb-0
+              h3.mb-0 Gris
+            p.mb-0 Neutralidad y serenidad
+          .tarjeta.color-acento-botones.p-3(x="77%" y="70.7%" numero="")
+            .titulo-sexto.color-11.mb-0
+              h3.mb-0 Blanco
+            p.mb-0 Pureza
+          .tarjeta.color-acento-botones.p-3(x="77%" y="77%" numero="")
+            .titulo-sexto.color-12.mb-0
+              h3.mb-0 Negro
+            p.mb-0 Elegancia
     figure.mb-5(data-aos="slide-left")
       img(src='@/assets/curso/tema1/img20.png').m-auto
     p.mb-5 Adicionalmente, puede conocer sobre la teoría del color y cómo se requiere de una referencia para mezclar los colores y conseguir un efecto en concreto:
@@ -358,11 +415,11 @@
             .col-lg-6.mb-4.mb-lg-0
               img(src='@/assets/curso/tema1/img21.svg', style='width: 400px').m-auto
             .col-lg-6
-              p.mb-0 #[b a. Tono (Hue)]
+              p.mb-0 #[b a. Tono (#[i Hue])]
               p.mb-4 Es el color en concreto y ayuda a diferenciarlos. Por ejemplo, al ver un objeto se dice que tiene un tono azul o anaranjado.
-              p.mb-0 #[b b. Saturación (Saturation)]
+              p.mb-0 #[b b. Saturación (#[i Saturation])]
               p.mb-4 Intensidad o pureza del color. En otras palabras, la cantidad de gris que se le ha agregado a un tono; así entre más saturado es un color, más vibrante es, mientras que, entre menos saturado, dará mayor descanso al ojo.
-              p.mb-0 #[b c. Luminosidad o valor (Value)]
+              p.mb-0 #[b c. Luminosidad o valor (#[i Value])]
               p.mb-4 Describe el valor de claridad u oscuridad, en otras palabras, cantidad relativa de blanco o negro en un tono. Si agregamos el blanco a un color, obtendremos valores más claros del tono, llamados tintes. Por otro lado, si el que agregamos es el negro, tendremos valores más oscuros del tono, conocidos como matices. Por ejemplo, decimos que el rosa es un tinte del color rojo primario y el borgoña o rojo oscuro es un matiz (Whelan, 1994).
           .row(numero="3" titulo="Círculo cromático")
             .col-lg-6.mb-4.mb-lg-0
@@ -470,7 +527,7 @@
                   img(src="@/assets/curso/tema1/img38.svg", style="width:150px").m-auto
     figure
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/3voQlMFEx64" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/Ug4XECwsp_E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     separador
     #t_1_4
     .titulo-segundo.color-secundario
@@ -493,7 +550,6 @@
                   img(src="@/assets/curso/tema1/img38.svg", style="width:150px").m-auto
 
 </template>
-
 <script>
 export default {
   name: 'Tema1',

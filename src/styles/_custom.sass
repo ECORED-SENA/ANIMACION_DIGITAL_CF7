@@ -1,3 +1,6 @@
+.banner-interno__titulo__icono i
+  color: #12263F !important
+  
 .bloque-texto-a.color-secundario
   background-image: url(../assets/curso/tema1/img1.png)
   background-size: 670px
@@ -99,7 +102,7 @@
   border-color: #D44F4A
 
 .img-infografica__card, .img-infografica-b__card
-  width: 500px
+  width: 350px
 
 .tarjeta.color-acento-botones
   background-color: #FFFFFF
@@ -117,6 +120,65 @@
     color: #000000
     b
       color: #000000
+
+.titulo-sexto.color-1
+  border-left-color: #d5b64c
+
+.titulo-sexto.color-2
+  border-left-color: #4d2311
+
+.titulo-sexto.color-3
+  border-left-color: #f4e703
+
+.titulo-sexto.color-4
+  border-left-color: #e42622
+
+.titulo-sexto.color-5
+  border-left-color: #eb007f
+
+.titulo-sexto.color-6
+  border-left-color: #c5c5c5
+
+.titulo-sexto.color-7
+  border-left-color: #029bdd
+
+.titulo-sexto.color-8
+  border-left-color: #43b035
+
+.titulo-sexto.color-9
+  border-left-color: #7d2283
+
+.titulo-sexto.color-10
+  border-left-color: #747476
+
+.titulo-sexto.color-11
+  border-left-color: #FFFFFF
+
+.titulo-sexto.color-12
+  border-left-color: #000000
+
+.banner-principal__img
+  background-image: url("../assets/curso/banner/banner1.png")
+  align-self: stretch
+  background-repeat: no-repeat, no-repeat
+  background-position: 50% center, 50% 50%
+  background-size: 55%, 55%
+  animation: Flitp 2s ease infinite  
+  img
+    display: none !important
+
+@keyframes Flitp
+  16.66%
+    background-image: url("../assets/curso/banner/banner1.png")
+  33.33%
+    background-image: url("../assets/curso/banner/banner2.png")
+  50%
+    background-image: url("../assets/curso/banner/banner3.png")
+    background-position: 45% center, 50% 40%
+  66.6%
+    background-image: url("../assets/curso/banner/banner4.png")
+  83.19%
+    background-image: url("../assets/curso/banner/banner5.png")
 
 .bg-color1
   border-bottom: 5px solid #D44F4A
@@ -239,6 +301,9 @@
     top: 14.1%
 
 @media screen and ( max-width: 1200px )
+
+  .banner-principal__img
+    background-size: 70%, 70%
 
   .img-deco1
     top: 18.5%

@@ -16,7 +16,7 @@
               .col-lg-8
                 .bloque-texto-a__texto.p-4
                   p Las luces en After Effects, como en la vida real, son las que proporcionan, mediante su intensidad, valores tonales y de profundidad, generando sombras y puntos de iluminación cuando activamos las capas para volverlas capas 3D. Esto permite resaltar algún objeto, personaje o escenario dentro de la escena. Asimismo, con la iluminación se puede dar color a las escenas, lo que permite asignar una emoción a la toma, como tristeza, alegría, ira, suspenso, entre otras.
-          p.text-center.mb-5 Conozca, a continuación, los tipos de luces más destacados en After Effects:
+          p.text-center.mb-5 Conozca, a continuación, los tipos de luces más destacados en #[i After Effects]:
           LineaTiempoD.color-primario.mb-5
             .row(numero="1" titulo="Luz ambiental")
               .col-12

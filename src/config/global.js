@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Efectos y <i>render</i>',
     descripcionCurso:
-      'Con el estudio de este componente, el aprendiz estará más y mejor capacitado en los aspectos clave de la de la teoría de la luz, los efectos visuales y sonoros, los gráficos en movimiento y la salida de render, en el marco de desarrollos de animación digital.',
+      'Con el estudio de este componente, el aprendiz estará y mejor capacitado en los aspectos clave de la de la teoría de la luz, los efectos visuales y sonoros, los gráficos en movimiento y la salida de <i>render</i>, en el marco de desarrollos de animación digital.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
   },
@@ -129,11 +129,11 @@ export default {
       },
     ],
     subMenu: [
-      //{
-      //  icono: 'fas fa-sitemap',
-      //  titulo: 'Sintesis',
-      //  nombreRuta: 'sintesis',
-      //},
+      {
+        icono: 'fas fa-sitemap',
+        titulo: 'Sintesis',
+        nombreRuta: 'sintesis',
+      },
       {
         nombreRuta: 'actividad',
         icono: 'far fa-question-circle',
@@ -294,29 +294,29 @@ export default {
         nombre: 'Rafael Neftalí Lizcano Reyes',
         cargo: 'Asesor metodológico y pedagógico',
         centro:
-          'Centro industrial del ciseño y la manufactura - Regional Santander',
+          'Centro industrial del diseño y la manufactura - Regional Santander',
       },
       {
         nombre: 'Fabian Andrés Gómez pico',
-        cargo: 'Experto Temático',
+        cargo: 'Experto temático',
         centro:
           'Centro de servicios y gestión empresarial - Regional Antioquia',
       },
       {
         nombre: 'Johnier Felipe Perafán Ledezma',
-        cargo: 'Experto Temático',
+        cargo: 'Experto temático',
         centro:
           'Centro de servicios y gestión empresarial - Regional Antioquia',
       },
       {
         nombre: 'Fabián Leonardo Correa Díaz',
-        cargo: 'Diseñador Instruccional',
+        cargo: 'Diseñador instruccional',
         centro: 'Centro agropecuario La Granja - Regional Tolima',
       },
       {
         nombre: 'Carolina Coca Salazar',
-        cargo: 'Revisora Metodológica y Pedagógica',
-        centro: 'Regional distrito capital- Centro de Diseño y Metrología',
+        cargo: 'Revisora metodológica y pedagógica',
+        centro: 'Regional distrito capital - Centro de Diseño y Metrología',
       },
       {
         nombre: 'Darío González',
@@ -329,30 +329,72 @@ export default {
         nombre: 'Francisco José Lizcano Reyes',
         cargo: 'Responsable del equipo',
         centro:
-          'Centro industrial del ciseño y la manufactura - Regional Santander',
+          'Centro industrial del diseño y la manufactura - Regional Santander',
       },
       {
         nombre: 'Oscar Ivan Uribe Ortiz',
         cargo: 'Diseño web',
         centro:
-          'Centro industrial del ciseño y la manufactura - Regional Santander',
+          'Centro industrial del diseño y la manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Zuleidy Maria Ruiz Torres',
         cargo: 'Producción audiovisual',
         centro:
-          'Centro industrial del ciseño y la manufactura - Regional Santander',
+          'Centro industrial del diseño y la manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Wilson Andrés Arenales Caceres',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro industrial del diseño y la manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Gilberto Junior Rodriguez Rodriguez',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro industrial del diseño y la manufactura - Regional Santander',
+      },
+      {
+        nombre: 'María Carolina Tamayo López',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro industrial del diseño y la manufactura - Regional Santander',
+      },
+      {
+        nombre: 'John Jairo Arciniegas González',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro industrial del diseño y la manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Lady Adriana Ariza Luque',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro industrial del diseño y la manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Daniela Muñoz Bedoya',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro industrial del diseño y la manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Camilo Villamizar',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro industrial del diseño y la manufactura - Regional Santander',
       },
       {
         nombre: 'Jhon Jairo Urueta Alvarez',
-        cargo: 'Desarrollo Front-End',
+        cargo: 'Desarrollo Front-end',
         centro: 'Centro de comercio y servicios - Regional Tolima',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Yuli Marcela Gómez Tarazona',
         cargo: 'Validación de diseño y contenido',
         centro:
-          'Centro industrial del ciseño y la manufactura - Regional Santander',
+          'Centro industrial del diseño y la manufactura - Regional Santander',
       },
     ],
     gestoresRepositorio: [

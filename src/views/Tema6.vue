@@ -7,7 +7,8 @@
       .titulo-principal__numero
         span 6
       h1 Efectos visuales
-    p.mb-5 Los efectos visuales básicos para animación digital son aquellos que están presentes en la mayoría de producciones audiovisuales, mediante la manipulación de las imágenes; van desde animaciones hasta eliminación de fondo y #[i #[b matte painting]].
+    p Los efectos visuales básicos para animación digital son aquellos que están presentes en la mayoría de producciones audiovisuales, mediante la manipulación de las imágenes; van desde animaciones hasta eliminación de fondo y #[i #[b matte painting]].
+    p.mb-5 Explore, entonces, los aspectos más relevantes de los efectos visuales en la animación:
     ImagenInfografica.color-secundario.mb-5
       template(v-slot:imagen)
         figure
@@ -29,7 +30,7 @@
           .col-4
             img(src='@/assets/curso/tema6/img3.png', style='width: 200px').m-auto
           .col-8
-            p Se puede decir que el primer gran logro en el campo de los efectos visuales por computador se produjo en 1977, con el estreno de la película Star Wars, donde se utilizaron diferentes técnicas para lograrlos, como el matte painting, maquetas e inserciones digitales.
+            p Se puede decir que el primer gran logro en el campo de los efectos visuales por computador se produjo en 1977, con el estreno de la película Star Wars, donde se utilizaron diferentes técnicas para lograrlos, como el #[i matte painting], maquetas e inserciones digitales.
       .tarjeta.color-acento-botones.p-3(x="64.3%" y="34.3%" numero="")
         .row
           .col-4

@@ -153,7 +153,7 @@
     #t_7_4
     .titulo-segundo.color-secundario
       h2 7.4 Formatos de sonido
-    p.mb-5 Los formatos de sonido son decodificadores que transmiten la señal junto al video; los más usados por la industria de los videojuegos son, entre otros, Dolby Digital, Digital Sourround, WAV y AIFF, MP3, AAC, WMA.
+    p.mb-5 Los formatos de sonido son decodificadores que transmiten la señal junto al video; los más usados por la industria de los videojuegos son, entre otros, #[i Dolby Digital], #[i Digital Sourround], #[i WAV] y #[i AIFF], AIFF#[i AIFF], #[i AAC], #[i WMA].
     .row.py-5.justify-content-center
       .col-10.bg-color3.mb-5(data-aos="slide-up")
         .row.text-deco3

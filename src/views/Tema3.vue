@@ -35,7 +35,7 @@
               .p-4.bg-color11
                 img(src='@/assets/curso/tema3/img3.svg', style='width: 100px').m-auto.img-deco2
                 .p-4.text-deco2
-                  h3.text-center Glossiness
+                  h3.text-center #[i Glossiness]
                   p Otro valor que se debe tener en cuenta es el glossiness, que usa el mismo rango que el valor anterior. Cuando su valor es 1, entonces la superficie tendrá un reflejo totalmente nítido; sin embargo, en 0, los reflejos se dispersan y se verá borroso.
     img(src='@/assets/curso/tema3/img3.png', style='width: 800px').m-auto.mt-5
 

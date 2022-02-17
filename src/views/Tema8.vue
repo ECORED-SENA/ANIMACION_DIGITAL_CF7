@@ -16,7 +16,7 @@
               .col-lg-8
                 .bloque-texto-a__texto.p-4
                   p El #[b #[i Render]] es el proceso que realiza la interpretación de una escena con varios elementos en ella, para ser “revelada” o convertida en una imagen o clip 2D, teniendo en cuenta información de luz, color, textura, profundidad, entre otros. Consiste en generar la animación final, basada en los parámetros que se les dieron a las diferentes capas y modos de fusión entre ellas, así como también los parámetros establecidos asignados.
-          p.mb-5 El render tiene como fin que el clip de video resultante pueda ser visto con todos los elementos integrados, de manera fluida, y pueda ser llevado a diferentes plataformas, teniendo en cuenta también los parámetros de salida que se le asignaron al momento de renderizar.
+          p.mb-5 El #[i render] tiene como fin que el clip de video resultante pueda ser visto con todos los elementos integrados, de manera fluida, y pueda ser llevado a diferentes plataformas, teniendo en cuenta también los parámetros de salida que se le asignaron al momento de renderizar.
       .col-8.mb-5.bg-color17
         .p-4
           p.mb-0.text-center Estas son algunas generalidades y acciones prácticas que usted debe conocer para renderizar:
