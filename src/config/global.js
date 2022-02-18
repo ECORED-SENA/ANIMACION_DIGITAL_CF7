@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Efectos y <i>render</i>',
     descripcionCurso:
-      'Con el estudio de este componente, el aprendiz estará y mejor capacitado en los aspectos clave de la de la teoría de la luz, los efectos visuales y sonoros, los gráficos en movimiento y la salida de <i>render</i>, en el marco de desarrollos de animación digital.',
+      'Con el estudio de este componente, el aprendiz estará mejor capacitado en los aspectos clave de la de la teoría de la luz, los efectos visuales y sonoros, los gráficos en movimiento y la salida de <i>render</i>, en el marco de desarrollos de animación digital.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
   },
@@ -294,34 +294,34 @@ export default {
         nombre: 'Rafael Neftalí Lizcano Reyes',
         cargo: 'Asesor metodológico y pedagógico',
         centro:
-          'Centro industrial del diseño y la manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Fabian Andrés Gómez pico',
         cargo: 'Experto temático',
         centro:
-          'Centro de servicios y gestión empresarial - Regional Antioquia',
+          'Centro de Servicios y Gestión Empresarial - Regional Antioquia',
       },
       {
         nombre: 'Johnier Felipe Perafán Ledezma',
         cargo: 'Experto temático',
         centro:
-          'Centro de servicios y gestión empresarial - Regional Antioquia',
+          'Centro de Servicios y Gestión Empresarial - Regional Antioquia',
       },
       {
         nombre: 'Fabián Leonardo Correa Díaz',
         cargo: 'Diseñador instruccional',
-        centro: 'Centro agropecuario La Granja - Regional Tolima',
+        centro: 'Centro Agropecuario La Granja - Regional Tolima',
       },
       {
         nombre: 'Carolina Coca Salazar',
         cargo: 'Revisora metodológica y pedagógica',
-        centro: 'Regional distrito capital - Centro de Diseño y Metrología',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito capital',
       },
       {
         nombre: 'Darío González',
         cargo: 'Corrección de estilo',
-        centro: 'Centro agropecuario La Granja - Regional Tolima',
+        centro: 'Centro Agropecuario La Granja - Regional Tolima',
       },
     ],
     desarrolloProducto: [
@@ -329,89 +329,89 @@ export default {
         nombre: 'Francisco José Lizcano Reyes',
         cargo: 'Responsable del equipo',
         centro:
-          'Centro industrial del diseño y la manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Oscar Ivan Uribe Ortiz',
         cargo: 'Diseño web',
         centro:
-          'Centro industrial del diseño y la manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Zuleidy Maria Ruiz Torres',
         cargo: 'Producción audiovisual',
         centro:
-          'Centro industrial del diseño y la manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Wilson Andrés Arenales Caceres',
         cargo: 'Producción audiovisual',
         centro:
-          'Centro industrial del diseño y la manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Gilberto Junior Rodriguez Rodriguez',
         cargo: 'Producción audiovisual',
         centro:
-          'Centro industrial del diseño y la manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'María Carolina Tamayo López',
         cargo: 'Producción audiovisual',
         centro:
-          'Centro industrial del diseño y la manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'John Jairo Arciniegas González',
         cargo: 'Producción audiovisual',
         centro:
-          'Centro industrial del diseño y la manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Lady Adriana Ariza Luque',
         cargo: 'Producción audiovisual',
         centro:
-          'Centro industrial del diseño y la manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Daniela Muñoz Bedoya',
         cargo: 'Producción audiovisual',
         centro:
-          'Centro industrial del diseño y la manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Camilo Villamizar',
         cargo: 'Producción audiovisual',
         centro:
-          'Centro industrial del diseño y la manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Jhon Jairo Urueta Alvarez',
         cargo: 'Desarrollo Front-end',
-        centro: 'Centro de comercio y servicios - Regional Tolima',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
         nombre: 'Yuli Marcela Gómez Tarazona',
         cargo: 'Validación de diseño y contenido',
         centro:
-          'Centro industrial del diseño y la manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
     ],
     gestoresRepositorio: [
       {
         nombre: 'Álvaro Andrés Angarita Ramirez',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de comercio y servicios - Regional Tolima',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
         nombre: 'Daniel Felipe Varón Molina',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de comercio y servicios - Regional Tolima',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de comercio y servicios - Regional Tolima',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
     ],
   },
