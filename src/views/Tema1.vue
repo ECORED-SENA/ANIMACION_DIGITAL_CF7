@@ -66,7 +66,7 @@
                         p #[b Luz frontal]: situada frente al objeto.
                 .col-lg-6
                   .titulo-sexto.color-acento-contenido
-                    p.mb-0 #[b Figura 3]. Ejemplo de luz frontal en software Blender
+                    p.mb-0 #[b Figura 3]. Ejemplo de luz frontal en #[i software Blender]
                   img(src='@/assets/curso/tema1/img3.png', style='width: 650px').m-auto
               .row
                 .col-lg-6.mb-4.mb-lg-0
@@ -78,7 +78,7 @@
                         p #[b Luz lateral]: situada a alguno de los lados del objeto.
                 .col-lg-6
                   .titulo-sexto.color-acento-contenido
-                    p.mb-0 #[b Figura 4]. Ejemplo de luz lateral en software Blender
+                    p.mb-0 #[b Figura 4]. Ejemplo de luz lateral en #[i software Blender]
                   SlyderA
                     .row
                       .col-12
@@ -95,7 +95,7 @@
                         p #[b Luz cenital]: situada arriba del objeto.
                 .col-lg-6
                   .titulo-sexto.color-acento-contenido
-                    p.mb-0 #[b Figura 5]. Ejemplo de luz cenital en software Blender
+                    p.mb-0 #[b Figura 5]. Ejemplo de luz cenital en #[i software Blender]
                   img(src='@/assets/curso/tema1/img6.png', style='width: 650px').m-auto
               .row
                 .col-lg-6.mb-4.mb-lg-0
@@ -107,7 +107,7 @@
                         p #[b Contraluz]: esta luz se sitúa detrás del objeto.
                 .col-lg-6
                   .titulo-sexto.color-acento-contenido
-                    p.mb-0 #[b Figura 6]. Ejemplo de contraluz en software Blender
+                    p.mb-0 #[b Figura 6]. Ejemplo de contraluz en #[i software Blender]
                   img(src='@/assets/curso/tema1/img7.png', style='width: 650px').m-auto
               .row
                 .col-lg-6.mb-4.mb-lg-0
@@ -119,7 +119,7 @@
                         p #[b Luz suave]: se genera cuando la fuente de luz se extiende y se dispersa, como sería el caso de los rayos del sol filtrados por nubes, o una bombilla con un pedazo de tela, o una lámpara, lo cual hace que la luz se difumine y produzca sombras transparentes no tan #[b perceptibles] como con la luz dura.
                 .col-lg-6
                   .titulo-sexto.color-acento-contenido
-                    p.mb-0 #[b Figura 7]. Ejemplo de luz suave en software Blender
+                    p.mb-0 #[b Figura 7]. Ejemplo de luz suave en #[i software Blender]
                   img(src='@/assets/curso/tema1/img8.png', style='width: 650px').m-auto
       .py-3.py-md-4(titulo="Intensidad de la luz")
         .row
@@ -133,7 +133,7 @@
                   p #[b Luz dura]: se genera por una fuente con foco intenso, esta va a generar sombras más marcadas y más oscuras.
           .col-lg-6
             .titulo-sexto.color-acento-contenido
-              p.mb-0 #[b Figura 8]. Ejemplo de luz dura en software Blender
+              p.mb-0 #[b Figura 8]. Ejemplo de luz dura en #[i software Blender]
             img(src='@/assets/curso/tema1/img9.png', style='width: 650px').m-auto
       .py-3.py-md-4(titulo="Aspectos importantes de las sombras")
         .row
@@ -163,7 +163,7 @@
             p Es el set adecuado para iluminar una escena y así conseguir resultados efectivos. Este esquema situaría la luz principal, una luz de relleno y la contraluz, que se complementan entre sí. La luz principal se sitúa hacia el objeto, la luz de relleno va al lado opuesto, con una intensidad más baja, y la contraluz se sitúa por detrás, para darle profundidad a la escena.
           .col-lg-6
             .titulo-sexto.color-acento-contenido
-              p.mb-0 #[b Figura 10]. Triangulo de iluminación
+              p.mb-0 #[b Figura 10]. Triángulo de iluminación
             img(src='@/assets/curso/tema1/img11.png', style='width: 350px').m-auto
     separador
     #t_1_2
@@ -297,7 +297,7 @@
     figure.mb-5(data-aos="slide-right")
       img(src='@/assets/curso/tema1/img12.png').m.auto
       figcaption.mt-2 Escenas del videojuego #[i Ori and The Blind Forest] (2015)
-    p.mb-5 Comparando las imágenes anteriores se puede percibir que cada una de ellas evoca emociones diferentes. ¿Por qué sucede esto?, la respuesta está en el uso de los colores. En la imagen de la izquierda se destacan los colores azules, violetas y algunos tintes de verde que dan la sensación de que se trata de un mundo nocturno o frío; en contraste con la imagen de la derecha en la que se destacan los colores amarillos, amarillos verdosos, naranjas, terrosos y ocres que brindan la ilusión de un mundo más cálido.
+    p.mb-5 Comparando las imágenes anteriores se puede percibir que cada una de ellas evoca emociones diferentes. ¿Por qué sucede esto?, la respuesta está en el uso de los colores. En la imagen superior se destacan los colores azules, violetas y algunos tintes de verde que dan la sensación de que se trata de un mundo nocturno o frío; en contraste con la imagen inferior en la que se destacan los colores amarillos, amarillos verdosos, naranjas, terrosos y ocres que brindan la ilusión de un mundo más cálido.
     .row.justify-content-center
       .col-lg-10(data-aos="slide-left")
         .bloque-texto-a.color-acento-contenido.p-4.p-md-5.mb-5 
@@ -389,118 +389,116 @@
       img(src='@/assets/curso/tema1/img20.png').m-auto
     p.mb-5 Adicionalmente, puede conocer sobre la teoría del color y cómo se requiere de una referencia para mezclar los colores y conseguir un efecto en concreto:
     h3.mb-5 Teoría del color
-    .row.justify-content-end
-      .col-lg-11
-        LineaTiempoD.color-primario
-          .row(numero="1" titulo="Modelos de color")
-            .col-12
-              p Los modelos de color permiten catalogar los colores y que se pueda trabajar con ellos por medios digitales. A través de los modelos se accede a diferentes sistemas para visualizar y modificar una imagen:
-              .row
-                .col-lg-4.mb-4.mb-lg-0
-                  .p-4
-                    img(src='@/assets/curso/tema1/img22.svg', style='width: 400px').mb-4.m-auto
-                    p.mb-0 #[b Modelo RGB]
-                    p Modelo aditivo que se basa en los colores luz. El ojo humano cuenta con 3 tipos de conos o células foto receptoras que determinan los 3 colores primarios: rojo, verde y azul (RGB por siglas en inglés). De la combinación de estos 3 se obtiene el color blanco y la ausencia de los mismos dará como resultado el negro. Este modelo de color es usado para toda clase de dispositivos como pantallas, celulares, etc.
-                .col-lg-4.mb-4.mb-lg-0
-                  .p-4
-                    img(src='@/assets/curso/tema1/img23.svg', style='width: 400px').mb-4.m-auto
-                    p.mb-0 #[b Modelo CMYK]
-                    p Modelo sustractivo basado en los colores pigmento o físicos. Los colores primarios en este modelo son: amarillo, cían y magenta (CMYK por sus siglas en inglés). Al contrario del modelo RGB, la combinación de los 3 primarios genera el color negro (key o black). Este modelo es usado en pintura, tintes e impresión.
-                .col-lg-4
-                  .p-4
-                    img(src='@/assets/curso/tema1/img24.svg', style='width: 400px').mb-4.m-auto
-                    p.mb-0 #[b Modelo HSV]
-                    p Se basa en las propiedades del color (tono , saturación y luminosidad), las cuales se explican en mayor detalle en la siguiente lección.
-          .row(numero="2" titulo="Propiedades del color")
-            .col-lg-6.mb-4.mb-lg-0
-              img(src='@/assets/curso/tema1/img21.svg', style='width: 400px').m-auto
+    LineaTiempoD.color-primario
+      .row(numero="1" titulo="Modelos de color")
+        .col-12
+          p Los modelos de color permiten catalogar los colores y que se pueda trabajar con ellos por medios digitales. A través de los modelos se accede a diferentes sistemas para visualizar y modificar una imagen:
+          .row
+            .col-lg-4.mb-4.mb-lg-0
+              .p-4
+                img(src='@/assets/curso/tema1/img22.svg', style='width: 400px').mb-4.m-auto
+                p.mb-0 #[b Modelo RGB]
+                p Modelo aditivo que se basa en los colores luz. El ojo humano cuenta con 3 tipos de conos o células foto receptoras que determinan los 3 colores primarios: rojo, verde y azul (RGB por siglas en inglés). De la combinación de estos 3 se obtiene el color blanco y la ausencia de los mismos dará como resultado el negro. Este modelo de color es usado para toda clase de dispositivos como pantallas, celulares, etc.
+            .col-lg-4.mb-4.mb-lg-0
+              .p-4
+                img(src='@/assets/curso/tema1/img23.svg', style='width: 400px').mb-4.m-auto
+                p.mb-0 #[b Modelo CMYK]
+                p Modelo sustractivo basado en los colores pigmento o físicos. Los colores primarios en este modelo son: amarillo, cían y magenta (CMYK por sus siglas en inglés). Al contrario del modelo RGB, la combinación de los 3 primarios genera el color negro (#[i key] o #[i black]). Este modelo es usado en pintura, tintes e impresión.
+            .col-lg-4
+              .p-4
+                img(src='@/assets/curso/tema1/img24.svg', style='width: 400px').mb-4.m-auto
+                p.mb-0 #[b Modelo HSV]
+                p Se basa en las propiedades del color (tono , saturación y luminosidad), las cuales se explican en mayor detalle en la siguiente lección.
+      .row(numero="2" titulo="Propiedades del color")
+        .col-lg-6.mb-4.mb-lg-0
+          img(src='@/assets/curso/tema1/img21.svg', style='width: 400px').m-auto
+        .col-lg-6
+          p.mb-0 #[b a. Tono (#[i Hue])]
+          p.mb-4 Es el color en concreto y ayuda a diferenciarlos. Por ejemplo, al ver un objeto se dice que tiene un tono azul o anaranjado.
+          p.mb-0 #[b b. Saturación (#[i Saturation])]
+          p.mb-4 Intensidad o pureza del color. En otras palabras, la cantidad de gris que se le ha agregado a un tono; así entre más saturado es un color, más vibrante es, mientras que, entre menos saturado, dará mayor descanso al ojo.
+          p.mb-0 #[b c. Luminosidad o valor (#[i Value])]
+          p.mb-4 Describe el valor de claridad u oscuridad, en otras palabras, cantidad relativa de blanco o negro en un tono. Si agregamos el blanco a un color, obtendremos valores más claros del tono, llamados tintes. Por otro lado, si el que agregamos es el negro, tendremos valores más oscuros del tono, conocidos como matices. Por ejemplo, decimos que el rosa es un tinte del color rojo primario y el borgoña o rojo oscuro es un matiz (Whelan, 1994).
+      .row(numero="3" titulo="Círculo cromático")
+        .col-lg-6.mb-4.mb-lg-0
+          img(src='@/assets/curso/tema1/img25.svg', style='width: 400px').m-auto
+        .col-lg-6
+          p Se divide en doce segmentos, incluyendo los tonos primarios, secundarios y terciarios. Los tres colores primarios: rojo, amarillo y azul, forman un triángulo equilátero dentro del círculo. Si se mezclan en igual medida dos colores primarios, se obtiene un color secundario; y si se mezcla un primario con un secundario se tiene un terciario.
+      .row(numero="4" titulo="Armonía del color")
+        .col-12.mb-4.mb-lg-0
+          p.mb-4 Se debe saber que algunos colores se ven mejor juntos que otros, pero esto puede generar confusión si se trata de recordar cada uno. Por tanto, a continuación, se verán los 6 esquemas más efectivos de la armonía de color:
+          .row
             .col-lg-6
-              p.mb-0 #[b a. Tono (#[i Hue])]
-              p.mb-4 Es el color en concreto y ayuda a diferenciarlos. Por ejemplo, al ver un objeto se dice que tiene un tono azul o anaranjado.
-              p.mb-0 #[b b. Saturación (#[i Saturation])]
-              p.mb-4 Intensidad o pureza del color. En otras palabras, la cantidad de gris que se le ha agregado a un tono; así entre más saturado es un color, más vibrante es, mientras que, entre menos saturado, dará mayor descanso al ojo.
-              p.mb-0 #[b c. Luminosidad o valor (#[i Value])]
-              p.mb-4 Describe el valor de claridad u oscuridad, en otras palabras, cantidad relativa de blanco o negro en un tono. Si agregamos el blanco a un color, obtendremos valores más claros del tono, llamados tintes. Por otro lado, si el que agregamos es el negro, tendremos valores más oscuros del tono, conocidos como matices. Por ejemplo, decimos que el rosa es un tinte del color rojo primario y el borgoña o rojo oscuro es un matiz (Whelan, 1994).
-          .row(numero="3" titulo="Círculo cromático")
-            .col-lg-6.mb-4.mb-lg-0
-              img(src='@/assets/curso/tema1/img25.svg', style='width: 400px').m-auto
+              .p-4
+                img(src='@/assets/curso/tema1/img21.png', style='width: 500px').mb-4.m-auto
+                p.mb-0 #[b Mocromático]
+                p Es uno de los más fáciles de recordar, ya que es un solo color. Debido a la ausencia de otros colores, el espectador se enfoca en las diferencias de valor y saturación.
             .col-lg-6
-              p Se divide en doce segmentos, incluyendo los tonos primarios, secundarios y terciarios. Los tres colores primarios: rojo, amarillo y azul, forman un triángulo equilátero dentro del círculo. Si se mezclan en igual medida dos colores primarios, se obtiene un color secundario; y si se mezcla un primario con un secundario se tiene un terciario.
-          .row(numero="4" titulo="Armonía del color")
-            .col-12.mb-4.mb-lg-0
-              p.mb-4 Se debe saber que algunos colores se ven mejor juntos que otros, pero esto puede generar confusión si se trata de recordar cada uno. Por tanto, a continuación, se verán los 6 esquemas más efectivos de la armonía de color:
-              .row
-                .col-lg-6
-                  .p-4
-                    img(src='@/assets/curso/tema1/img21.png', style='width: 500px').mb-4.m-auto
-                    p.mb-0 #[b Mocromático]
-                    p Es uno de los más fáciles de recordar, ya que es un solo color. Debido a la ausencia de otros colores, el espectador se enfoca en las diferencias de valor y saturación.
-                .col-lg-6
-                  .p-4
-                    img(src='@/assets/curso/tema1/img22.png', style='width: 500px').mb-4.m-auto
-                    p.mb-0 #[b Análogo]
-                    p Se usan colores adyacentes uno del otro. Es un esquema presente en la naturaleza, por ende, crean una sensación de calma, paz y comodidad.
-                .col-lg-6
-                  .p-4
-                    img(src='@/assets/curso/tema1/img23.png', style='width: 500px').mb-4.m-auto
-                    p.mb-0 #[b Complementario]
-                    p Es el esquema más popular, donde se usan colores de lados opuestos del círculo. Naturalmente siempre van bien juntos; sin embargo, como en el esquema de triada, se debe elegir un color predominante y usar el tono complementario para crear contraste o puntos de interés.
-                .col-lg-6
-                  .p-4
-                    img(src='@/assets/curso/tema1/img24.png', style='width: 500px').mb-4.m-auto
-                    p.mb-0 #[b Triada]
-                    p Quizás es una de las más difíciles de usar correctamente. Son tres colores que son equidistantes. El reto está en el equilibrio de cada uno de los tonos, dado que al usarse en la misma medida generará caos. Suele usarse para escenas con estilo cartoon, orientado al público infantil.
-                .col-lg-6
-                  .p-4
-                    img(src='@/assets/curso/tema1/img25.png', style='width: 500px').mb-4.m-auto
-                    p.mb-0 #[b Complementario dividido]
-                    p Similar al complementario, pero este esquema usa tres colores. Se debe seleccionar el tono complementario y dividirlo, es decir, tomar los dos colores adyacentes. Es útil para extender las posibilidades de la paleta de color, cuando dos tonos no son suficientes.
-                .col-lg-6
-                  .p-4
-                    img(src='@/assets/curso/tema1/img26.png', style='width: 500px').mb-4.m-auto
-                    p.mb-0 #[b Complementario doble]
-                    p Justo como el esquema complementario pero doble. Dos pares de colores complementarios (sin importar su posición dentro del círculo). Se debe ser muy cuidadoso con este esquema, pues sin el equilibrio adecuado creará caos. Lo mejor es usar un par en primer plano y el otro en el fondo.
-              .row.justify-content-center
-                .col-10
-                  a.anexo.mb-4.mb-lg-0(href="https://color.adobe.com/es/create/color-wheel" target="_blank")
-                    .anexo__icono
-                      img(src="@/assets/template/icono-link.svg")
-                    .anexo__texto
-                      p  Para crear paletas de color y jugar con diferentes esquemas puede consultar la herramienta creada por Adobe llamada Adobe Color, anteriormente conocida como Kuler desde internet.
-          .row(numero="5" titulo="Psicología del color")
-            .col-12
-              p.mb-4 Como lo menciona Bride M. Whelan, “El color es a la vez simple y complejo. Este significa cosas distintas para distintas personas en culturas diferentes. Ningún color es visto del mismo modo por dos personas. El color es personal y universal, y envía mensajes de inagotable variedad”. (Whelan, 1994).
-              .row
-                .col-lg-6
-                  .p-4
-                    img(src='@/assets/curso/tema1/img26.svg').m-auto
-                .col-lg-6
-                  .p-4
-                    img(src='@/assets/curso/tema1/img27.svg').m-auto
-                .col-lg-6
-                  .p-4
-                    img(src='@/assets/curso/tema1/img28.svg').m-auto
-                .col-lg-6
-                  .p-4
-                    img(src='@/assets/curso/tema1/img29.svg').m-auto
-                .col-lg-6
-                  .p-4
-                    img(src='@/assets/curso/tema1/img30.svg').m-auto
-                .col-lg-6
-                  .p-4
-                    img(src='@/assets/curso/tema1/img31.svg').m-auto
-                .col-lg-6
-                  .p-4
-                    img(src='@/assets/curso/tema1/img32.svg').m-auto
-                .col-lg-6
-                  .p-4
-                    img(src='@/assets/curso/tema1/img33.svg').m-auto
-                .col-lg-6
-                  .p-4
-                    img(src='@/assets/curso/tema1/img34.svg').m-auto
-                .col-lg-6
-                  .p-4
-                    img(src='@/assets/curso/tema1/img35.svg').m-auto
+              .p-4
+                img(src='@/assets/curso/tema1/img22.png', style='width: 500px').mb-4.m-auto
+                p.mb-0 #[b Análogo]
+                p Se usan colores adyacentes uno del otro. Es un esquema presente en la naturaleza, por ende, crean una sensación de calma, paz y comodidad.
+            .col-lg-6
+              .p-4
+                img(src='@/assets/curso/tema1/img23.png', style='width: 500px').mb-4.m-auto
+                p.mb-0 #[b Complementario]
+                p Es el esquema más popular, donde se usan colores de lados opuestos del círculo. Naturalmente siempre van bien juntos; sin embargo, como en el esquema de triada, se debe elegir un color predominante y usar el tono complementario para crear contraste o puntos de interés.
+            .col-lg-6
+              .p-4
+                img(src='@/assets/curso/tema1/img24.png', style='width: 500px').mb-4.m-auto
+                p.mb-0 #[b Triada]
+                p Quizás es una de las más difíciles de usar correctamente. Son tres colores que son equidistantes. El reto está en el equilibrio de cada uno de los tonos, dado que al usarse en la misma medida generará caos. Suele usarse para escenas con estilo #[i cartoon], orientado al público infantil.
+            .col-lg-6
+              .p-4
+                img(src='@/assets/curso/tema1/img25.png', style='width: 500px').mb-4.m-auto
+                p.mb-0 #[b Complementario dividido]
+                p Similar al complementario, pero este esquema usa tres colores. Se debe seleccionar el tono complementario y dividirlo, es decir, tomar los dos colores adyacentes. Es útil para extender las posibilidades de la paleta de color, cuando dos tonos no son suficientes.
+            .col-lg-6
+              .p-4
+                img(src='@/assets/curso/tema1/img26.png', style='width: 500px').mb-4.m-auto
+                p.mb-0 #[b Complementario doble]
+                p Justo como el esquema complementario pero doble. Dos pares de colores complementarios (sin importar su posición dentro del círculo). Se debe ser muy cuidadoso con este esquema, pues sin el equilibrio adecuado creará caos. Lo mejor es usar un par en primer plano y el otro en el fondo.
+          .row.justify-content-center
+            .col-10
+              a.anexo.mb-4.mb-lg-0(href="https://color.adobe.com/es/create/color-wheel" target="_blank")
+                .anexo__icono
+                  img(src="@/assets/template/icono-link.svg")
+                .anexo__texto
+                  p  Para crear paletas de color y jugar con diferentes esquemas puede consultar la herramienta creada por Adobe llamada Adobe Color, anteriormente conocida como Kuler desde internet.
+      .row(numero="5" titulo="Psicología del color")
+        .col-12
+          p.mb-4 Como lo menciona Bride M. Whelan, “El color es a la vez simple y complejo. Este significa cosas distintas para distintas personas en culturas diferentes. Ningún color es visto del mismo modo por dos personas. El color es personal y universal, y envía mensajes de inagotable variedad”. (Whelan, 1994).
+          .row
+            .col-lg-6
+              .p-4
+                img(src='@/assets/curso/tema1/img26.svg').m-auto
+            .col-lg-6
+              .p-4
+                img(src='@/assets/curso/tema1/img27.svg').m-auto
+            .col-lg-6
+              .p-4
+                img(src='@/assets/curso/tema1/img28.svg').m-auto
+            .col-lg-6
+              .p-4
+                img(src='@/assets/curso/tema1/img29.svg').m-auto
+            .col-lg-6
+              .p-4
+                img(src='@/assets/curso/tema1/img30.svg').m-auto
+            .col-lg-6
+              .p-4
+                img(src='@/assets/curso/tema1/img31.svg').m-auto
+            .col-lg-6
+              .p-4
+                img(src='@/assets/curso/tema1/img32.svg').m-auto
+            .col-lg-6
+              .p-4
+                img(src='@/assets/curso/tema1/img33.svg').m-auto
+            .col-lg-6
+              .p-4
+                img(src='@/assets/curso/tema1/img34.svg').m-auto
+            .col-lg-6
+              .p-4
+                img(src='@/assets/curso/tema1/img35.svg').m-auto
     separador.mb-5
     .row.bg-color7
       .px-5
@@ -531,7 +529,7 @@
     separador
     #t_1_4
     .titulo-segundo.color-secundario
-      h2 1.4 Reloj de Iluminación
+      h2 1.4 Reloj de iluminación
     p.mb-5 El reloj de iluminación es un método que se utiliza para aplicar la iluminación en un objeto ubicando la luz según el esquema de una rueda de reloj, teniendo el rostro perpendicular a la cámara. Con el objeto en el centro de la esfera, mirando de frente, marcando las 6.
     .titulo-sexto.color-acento-contenido
       p.mb-0 #[b Figura 2]. Reloj de iluminación
@@ -543,7 +541,7 @@
         .p-4
           .row.align-items-center.justify-content-center
             .col.mb-4.mb-lg-0
-              p.mb-0 Consulte el Anexo_2_RejojDeIluminacion y estudie a profundidad, el paso a paso del proceso Reloj de Iluminación.
+              p.mb-0 Consulte el Anexo_2_RelojDeIluminación y estudie a profundidad, el paso a paso del proceso Reloj de Iluminación.
             .col-auto
               a(:href="obtenerLink('/downloads/anexo_relojdeiluminacion.pdf')" target="_blank")
                 figure.efect1

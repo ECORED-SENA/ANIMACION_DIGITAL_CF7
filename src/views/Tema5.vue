@@ -42,7 +42,7 @@
             img(src='@/assets/curso/tema5/img5.png', style='width: 420px').m-auto
         .row(titulo="Valores").justify-content-center
           .col-10
-            p.mb-5 Se refieren al juego de luces y sombras, las cuales se pueden generar fácilmente, dependiendo del programa en el que se esté trabajando, por ejemplo, Blender, que permite generar luces virtuales para crear sombras virtuales, simplemente ubicando el foco de luz orientado hacia los elementos que se quiere iluminar y sombrear.
+            p.mb-5 Se refieren al juego de luces y sombras, las cuales se pueden generar fácilmente, dependiendo del programa en el que se esté trabajando, por ejemplo, #[i Blender], que permite generar luces virtuales para crear sombras virtuales, simplemente ubicando el foco de luz orientado hacia los elementos que se quiere iluminar y sombrear.
             img(src='@/assets/curso/tema5/img6.png', style='width: 820px').m-auto
         .row(titulo="Formas").justify-content-center
           .col-10

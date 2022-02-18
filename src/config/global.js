@@ -248,7 +248,7 @@ export default {
     {
       termino: 'Renderizar',
       significado:
-        'Es el proceso en el que un elemento que se encuentra en el mundo 3D es procesado en una imagen o un video para ser visualizado fuera del software.',
+        'Es el proceso en el que un elemento que se encuentra en el mundo 3D es procesado en una imagen o un video para ser visualizado fuera del <em>software</em>.',
     },
   ],
   complementario: [

@@ -54,24 +54,24 @@
             p #[i Tracking] o seguimiento
     p.mb-5.text-center Conozca y profundice en algunas de las técnicas más utilizadas en los VFX:
     AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--verde").mb-5
-      .row(titulo="Chroma Key (Keying)")
+      .row(titulo="<i>Chroma Key</i> (<i>Keying</i>)")
         .col-12
           .p-4
             img(src='@/assets/curso/tema6/img7.png', style='width: 900px').m-auto.mb-4
             p.mb-0 El #[b #[i chroma key]] o #[b #[i keying]] es una técnica audiovisual de composición que consiste en filmar un personaje u objeto frente a un fondo de color específico, por lo general verde o azul, para aislarlo y recortarlo perfectamente; posteriormente, extraerlo y superponerlo sobre un fondo o escenario diferente, que puede ser real o creado digitalmente.
-      div(titulo="Digital Matte Painting")
+      div(titulo="<i>Digital Matte Painting</i>")
         .row
           .col-12
             .p-4
               img(src='@/assets/curso/tema6/img8.png', style='width: 900px').m-auto.mb-4
               p.mb-0 El #[b #[i Digital Matte Painting]] hace uso de técnicas 2D y 3D que combinan habilidades de composición fotográfica, producción 3D y pintura digital para el diseño y creación de cualquier tipo de fondo, entorno o escenario digital; haciendo posible la construcción de mundos imaginarios que parecen realistas y que, en la vida real, serían muy costosos o imposibles de filmar.
-      div(titulo="Color grading o etalonaje")
+      div(titulo="<i>Color grading</i> o etalonaje")
         .row
           .col-12
             .p-4
               img(src='@/assets/curso/tema6/img9.png', style='width: 900px').m-auto.mb-4
-              p.mb-0 Técnica que permite modificar el color, digitalmente, para realzar los tonos de una pieza audiovisual y corregir problemas de exposición, parámetros de luz, cambiar aspecto o look, siluetas, e integrar los niveles de diferentes planos. Ello para lograr un film con una paleta de colores compacta y homogénea, que transmita emociones correctas al espectador (tristeza, alegría, asombro, empatía, etc.), en el momento adecuado y de acuerdo con su propósito.
-      div(titulo="Tracking o seguimiento")
+              p.mb-0 Técnica que permite modificar el color, digitalmente, para realzar los tonos de una pieza audiovisual y corregir problemas de exposición, parámetros de luz, cambiar aspecto o #[i look], siluetas, e integrar los niveles de diferentes planos. Ello para lograr un #[i film] con una paleta de colores compacta y homogénea, que transmita emociones correctas al espectador (tristeza, alegría, asombro, empatía, etc.), en el momento adecuado y de acuerdo con su propósito.
+      div(titulo="<i>Tracking</i> o seguimiento")
         .row
           .col-12
             .p-4
@@ -121,13 +121,13 @@
             figure
               .video
                 iframe(width="560" height="315" src="https://www.youtube.com/embed/VtCxpmIW2iI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      .row(numero="8" titulo="Efecto Agua")
+      .row(numero="8" titulo="Efecto agua")
         .col-12
           .p-4
             figure
               .video
                 iframe(width="560" height="315" src="https://www.youtube.com/embed/GsdFaHmJ4Uw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      .row(numero="9" titulo="Camera Track")
+      .row(numero="9" titulo="Camera track")
         .col-12
           .p-4
             figure
@@ -139,7 +139,7 @@
             figure
               .video
                 iframe(width="560" height="315" src="https://www.youtube.com/embed/EBSY1TPDLCU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      .row(numero="11" titulo="GreenScreen")
+      .row(numero="11" titulo="Green screen")
         .col-12
           .p-4
             figure

@@ -6,7 +6,7 @@
     .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 8
-      h1 Render
+      h1 #[i Render]
     .row.justify-content-center
       .col-10(data-aos="slide-left")
           .bloque-texto-a.color-terciario.p-4.p-md-5.mb-5 
@@ -37,9 +37,9 @@ export default {
         // leyendaImagen: 'Leyenda de la imagen',
       },
       {
-        titulo: 'Llamado a software especializado',
+        titulo: 'Llamado a <i>software</i> especializado',
         texto:
-          'Al dar clic, <b><i>After Effects</b></i> hará el llamado a otro software especializado (<i>adobe media encoder</i>) para renderizado. Este es más rápido y eficiente que el que tiene <i>After Effects</i> integrado, el cual se despliega si le damos en “añadir a la cola de procesamiento”.',
+          'Al dar clic, <b><i>After Effects</b></i> hará el llamado a otro <i>software</i> especializado (<i>adobe media encoder</i>) para renderizado. Este es más rápido y eficiente que el que tiene <i>After Effects</i> integrado, el cual se despliega si le damos en “añadir a la cola de procesamiento”.',
         imagen: require('@/assets/curso/tema8/img3.png'),
         // leyendaImagen: 'Leyenda de la imagen',
       },

@@ -167,7 +167,7 @@
             .row.align-items-center
               .col-12
                 img(src='@/assets/curso/tema7/img12.svg', style='width: 300px').m-auto.mb-3
-                p.mb-0 Es el más utilizado a lo largo de la historia, gracias a que presenta mayor compatibilidad con un gran número de equipos, aunque puede sufrir cierta pérdida de calidad al comprimir el sonido. En los últimos años, ha venido trabajando con otros formatos #[i Dolby digital plus, Dolby Digital TRUE HD y Dolby ATOMS], que evitan comprimir el audio, conservando la fidelidad de los sonidos.
+                p.mb-0 Es el más utilizado a lo largo de la historia, gracias a que presenta mayor compatibilidad con un gran número de equipos, aunque puede sufrir cierta pérdida de calidad al comprimir el sonido. En los últimos años, ha venido trabajando con otros formatos #[i Dolby Digital Plus, Dolby Digital TRUE HD y Dolby ATOMS], que evitan comprimir el audio, conservando la fidelidad de los sonidos.
           .tarjeta.color-acento-botones--borde.p-4(titulo="Digital Surround (DTS)")
             .row.align-items-center
               .col-12
@@ -188,7 +188,7 @@
               .col-12
                 img(src='@/assets/curso/tema7/img16.svg', style='width: 300px').m-auto.mb-3
                 p.mb-0 Los sonidos #[i Foley] pueden lograrse desde muchas fuentes, diferentes tipos de material, pisos, líquidos, etc., realizándose pruebas para conseguir el sonido ideal para cada situación que lo amerite. Hay algunos tips que se utilizan frecuentemente para generar sonidos específicos: para sillas viejas, se crean sonidos crujientes, para los cuales se tiene control de la intensidad y de la duración; para fracturas, se suele emplear el crujir de un tallo de apio partiéndose…
-    p.mb-5 Aprenda a asignar efectos de audio, como reverb, delay, entre otros; descubra cómo cortar y editar sonido, aumentar volumen y generar transición entre sonidos, visualizando el siguiente video: #[b Edición y efectos de audio].
+    p.mb-5 Aprenda a asignar efectos de audio, como #[i reverb], #[i delay], entre otros; descubra cómo cortar y editar sonido, aumentar volumen y generar transición entre sonidos, visualizando el siguiente video: #[b Edición y efectos de audio].
     figure
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/b9YcZPKEE4g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
