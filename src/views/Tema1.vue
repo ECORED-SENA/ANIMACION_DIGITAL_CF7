@@ -21,7 +21,7 @@
                       p Uno de los aspectos más importantes en la creación de imágenes y su integración en escenarios es la definición de los elementos que iluminan la escena. Por esta razón, es necesario definir los objetos que añaden iluminación a los objetos que constituyen la escena, los tipos de luces y sus características básicas.
         #t_1_1
         .titulo-segundo.color-secundario
-          h2 1.1 Teoría de luz
+          h2 1.1 Teoría de la luz
         p.mb-5 Los puntos de iluminación, sin duda, hacen parte del realismo que le integramos a la atmósfera o al ambiente que estamos creando y, a su vez, son elementos más delicados de utilizar, al influir enormemente en el tiempo necesario para renderizar una escena. Cada uno de los objetos utilizados dispone de parámetros y propiedades específicas, que pueden ser, o no, comunes a los tipos de iluminación, tal como se verá en este contenido.
         .row.justify-content-center
           .col-10(data-aos="slide-up")

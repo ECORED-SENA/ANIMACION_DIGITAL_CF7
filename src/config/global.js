@@ -29,7 +29,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Teoría de luz',
+            titulo: 'Teoría de la luz',
             hash: 't_1_1',
           },
           {
