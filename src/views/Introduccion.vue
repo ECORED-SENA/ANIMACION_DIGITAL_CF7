@@ -12,10 +12,10 @@
       .col-8.bg-color1
         p
     .row.justify-content-center
-      .col-10.bg-color2
+      .col-11.col-lg-10.bg-color2
         .row.justify-content-end.align-items-center
-          img(src='@/assets/curso/tema1/img1.svg' style='width: 240px').m-auto.img-deco1(data-aos="slide-up")
-          .col-7.col-lg-8.me-xl-5
+          img(src='@/assets/curso/tema1/img1.svg' style='width: 240px').m-auto.img-deco1(data-aos="slide-up").d-none.d-lg-block
+          .col-12.col-lg-8.me-xl-5
             p.text-center.my-4 Se le da la bienvenida al estudio del componente siete de Animación digital. Para comenzar, visualice el recurso que se muestra a continuación. #[span.text-deco1 #[b ¡Adelante!]]
     figure
       .video

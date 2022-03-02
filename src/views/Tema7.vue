@@ -97,7 +97,7 @@
               .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema7/img4.svg')})`}")
               .tarjeta-slide__contenido.p-4.p-xl-5
                 p.text-center Banda sonora, ambientación sonora y efectos de audio.
-      .col-6.d-flex
+      .col-12.col-lg-6.d-flex
         .p-2
           .tarjeta.tarjeta-slide.izquierda.color-secundario(@mouseover="indicadorTarjetaSlide = false")
             .indicador--hover(v-if="indicadorTarjetaSlide")
@@ -105,7 +105,7 @@
               .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema7/img5.svg')})`}")
               .tarjeta-slide__contenido.p-4.p-xl-5
                 p #[b Música o banda sonora] es, básicamente, la que empodera la historia, le brinda diferentes estados de ánimo, dependiendo del contexto de cada escena, y ayuda a marcar el ritmo del proyecto audiovisual.
-      .col-6
+      .col-12.col-lg-6
         .p-2
           .tarjeta.tarjeta-slide.derecha.color-secundario(@mouseover="indicadorTarjetaSlide = false")
             .indicador--hover(v-if="indicadorTarjetaSlide")
@@ -122,7 +122,7 @@
               .tarjeta-slide__contenido.p-4.p-xl-5
                 p Brindan información importante al espectador, ya sea a través del diálogo con otros personajes o por la producción de algún sonido específico, por ejemplo, el sonido lejano de alguien pidiendo ayuda, el cual se va incrementando a medida que se acerca, dando contexto a la ubicación; o de una alarma que se dispara, que generalmente es indicativo de que algo grave va a pasar.
                 p.mb-0 También, los pesados pasos de un monstruo que se acerca, que, aún sin verlo, su sonido nos sugiere que se trata de algo de gran tamaño, generando temor al imaginar con quién habría un enfrentamiento; es decir, mejoran la inmersión.
-      .col-6
+      .col-12.col-lg-6
         .p-2
           .tarjeta.tarjeta-slide.izquierda.color-primario(@mouseover="indicadorTarjetaSlide = false")
             .indicador--hover(v-if="indicadorTarjetaSlide")
@@ -131,7 +131,7 @@
               .tarjeta-slide__contenido.p-4.p-xl-5
                 p Cada uno de estos elementos debe ser acorde con los demás elementos que hacen parte de la atmósfera.
                 p.mb-0 La iluminación y paleta de colores influyen en la psique del jugador. Al usar colores cálidos y buena iluminación, se pueden usar melodías y efectos de sonido más alegres y optimistas; mientras que, al usar colores fríos e iluminación tenue, se pueden usar sonidos y melodías relacionadas con el misticismo, la calma o la tensión, todo depende de lo que se quiera reflejar en escena.
-      .col-6.d-flex
+      .col-12.col-lg-6.d-flex
         .p-2
           .tarjeta.tarjeta-slide.derecha.color-primario(@mouseover="indicadorTarjetaSlide = false")
             .indicador--hover(v-if="indicadorTarjetaSlide")

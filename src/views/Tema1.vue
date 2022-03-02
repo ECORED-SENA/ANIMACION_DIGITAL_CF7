@@ -66,7 +66,7 @@
                         p #[b Luz frontal]: situada frente al objeto.
                 .col-lg-6
                   .titulo-sexto.color-acento-contenido
-                    p.mb-0 #[b Figura 3]. Ejemplo de luz frontal en #[i software Blender]
+                    p.mb-0 #[b Figura 3]. Ejemplo de luz frontal en #[i software] Blender
                   img(src='@/assets/curso/tema1/img3.png', style='width: 650px').m-auto
               .row
                 .col-lg-6.mb-4.mb-lg-0
@@ -78,7 +78,7 @@
                         p #[b Luz lateral]: situada a alguno de los lados del objeto.
                 .col-lg-6
                   .titulo-sexto.color-acento-contenido
-                    p.mb-0 #[b Figura 4]. Ejemplo de luz lateral en #[i software Blender]
+                    p.mb-0 #[b Figura 4]. Ejemplo de luz lateral en #[i software] Blender
                   SlyderA
                     .row
                       .col-12
@@ -95,7 +95,7 @@
                         p #[b Luz cenital]: situada arriba del objeto.
                 .col-lg-6
                   .titulo-sexto.color-acento-contenido
-                    p.mb-0 #[b Figura 5]. Ejemplo de luz cenital en #[i software Blender]
+                    p.mb-0 #[b Figura 5]. Ejemplo de luz cenital en #[i software] Blender
                   img(src='@/assets/curso/tema1/img6.png', style='width: 650px').m-auto
               .row
                 .col-lg-6.mb-4.mb-lg-0
@@ -107,7 +107,7 @@
                         p #[b Contraluz]: esta luz se sitúa detrás del objeto.
                 .col-lg-6
                   .titulo-sexto.color-acento-contenido
-                    p.mb-0 #[b Figura 6]. Ejemplo de contraluz en #[i software Blender]
+                    p.mb-0 #[b Figura 6]. Ejemplo de contraluz en #[i software] Blender
                   img(src='@/assets/curso/tema1/img7.png', style='width: 650px').m-auto
               .row
                 .col-lg-6.mb-4.mb-lg-0
@@ -119,7 +119,7 @@
                         p #[b Luz suave]: se genera cuando la fuente de luz se extiende y se dispersa, como sería el caso de los rayos del sol filtrados por nubes, o una bombilla con un pedazo de tela, o una lámpara, lo cual hace que la luz se difumine y produzca sombras transparentes no tan #[b perceptibles] como con la luz dura.
                 .col-lg-6
                   .titulo-sexto.color-acento-contenido
-                    p.mb-0 #[b Figura 7]. Ejemplo de luz suave en #[i software Blender]
+                    p.mb-0 #[b Figura 7]. Ejemplo de luz suave en #[i software] Blender
                   img(src='@/assets/curso/tema1/img8.png', style='width: 650px').m-auto
       .py-3.py-md-4(titulo="Intensidad de la luz")
         .row
@@ -133,7 +133,7 @@
                   p #[b Luz dura]: se genera por una fuente con foco intenso, esta va a generar sombras más marcadas y más oscuras.
           .col-lg-6
             .titulo-sexto.color-acento-contenido
-              p.mb-0 #[b Figura 8]. Ejemplo de luz dura en #[i software Blender]
+              p.mb-0 #[b Figura 8]. Ejemplo de luz dura en #[i software] Blender
             img(src='@/assets/curso/tema1/img9.png', style='width: 650px').m-auto
       .py-3.py-md-4(titulo="Aspectos importantes de las sombras")
         .row
@@ -408,7 +408,7 @@
               .p-4
                 img(src='@/assets/curso/tema1/img24.svg', style='width: 400px').mb-4.m-auto
                 p.mb-0 #[b Modelo HSV]
-                p Se basa en las propiedades del color (tono , saturación y luminosidad), las cuales se explican en mayor detalle en la siguiente lección.
+                p Se basa en las propiedades del color (tono, saturación y luminosidad), las cuales se explican en mayor detalle en la siguiente lección.
       .row(numero="2" titulo="Propiedades del color")
         .col-lg-6.mb-4.mb-lg-0
           img(src='@/assets/curso/tema1/img21.svg', style='width: 400px').m-auto
@@ -431,7 +431,7 @@
             .col-lg-6
               .p-4
                 img(src='@/assets/curso/tema1/img21.png', style='width: 500px').mb-4.m-auto
-                p.mb-0 #[b Mocromático]
+                p.mb-0 #[b Monocromático]
                 p Es uno de los más fáciles de recordar, ya que es un solo color. Debido a la ausencia de otros colores, el espectador se enfoca en las diferencias de valor y saturación.
             .col-lg-6
               .p-4

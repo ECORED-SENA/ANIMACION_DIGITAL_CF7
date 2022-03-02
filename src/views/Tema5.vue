@@ -52,7 +52,7 @@
           .col-10
             p.mb-5 Lugar que ocupará cada uno de los elementos; se divide, básicamente, en dos: espacio negativo y espacio positivo, lo cual es útil para enmarcar una pieza o composición y establecer qué detalles son importantes y cuáles no lo son tanto. En el espacio positivo, se ubica lo que se quiere resaltar y que se considera tiene mayor importancia.
             img(src='@/assets/curso/tema5/img8.png', style='width: 820px').m-auto
-        .row(titulo="Morphing").justify-content-center
+        .row(titulo="<i>Morphing</i>").justify-content-center
           .col-lg-4.mb-4.mb-lg-0
             img(src='@/assets/curso/tema5/img1.gif', style='width: 420px').m-auto
           .col-lg-6
