@@ -458,7 +458,7 @@
                 img(src='@/assets/curso/tema1/img26.png', style='width: 500px').mb-4.m-auto
                 p.mb-0 #[b Complementario doble]
                 p Justo como el esquema complementario pero doble. Dos pares de colores complementarios (sin importar su posición dentro del círculo). Se debe ser muy cuidadoso con este esquema, pues sin el equilibrio adecuado creará caos. Lo mejor es usar un par en primer plano y el otro en el fondo.
-          .row.justify-content-center
+          .row.justify-content-center.mb-5
             .col-10
               a.anexo.mb-4.mb-lg-0(href="https://color.adobe.com/es/create/color-wheel" target="_blank")
                 .anexo__icono
@@ -468,7 +468,7 @@
       .row(numero="5" titulo="Psicología del color")
         .col-12
           p.mb-4 Como lo menciona Bride M. Whelan, “El color es a la vez simple y complejo. Este significa cosas distintas para distintas personas en culturas diferentes. Ningún color es visto del mismo modo por dos personas. El color es personal y universal, y envía mensajes de inagotable variedad”. (Whelan, 1994).
-          .row
+          .row.mb-5
             .col-lg-6
               .p-4
                 img(src='@/assets/curso/tema1/img26.svg').m-auto
